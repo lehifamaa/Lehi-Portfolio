@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <header
+    class="sticky top-0 z-[1000] h-16 bg-black shadow-[inset_0_0_0_1px] shadow-white"
+  >
+    <div class="mx-auto max-w-7xl px-4">
+      <nav class="flex h-16 items-center justify-between">
+        <a
+          class="font-playfair-display text-2xl font-black text-white"
+          href="portfolio.html"
+          >LEHI
+        </a>
+        <div class="hidden items-center gap-10 md:flex">
+          <div class="flex gap-10">
+            <a class="font-nunito text-white" href="portfolio.html"
+              >Portfolio</a
+            >
+            <a class="font-nunito text-white" href="about.html">About</a>
+          </div>
+          <div class="flex h-7 gap-6">
+            <a href="https://www.facebook.com/lehi.tablada"
+              ><i
+                class="bx bxl-facebook-circle font-nunito text-3xl text-white"
+              ></i
+            ></a>
+            <a href="https://www.instagram.com/itslehifama/"
+              ><i
+                class="bx bxl-instagram-alt font-nunito text-3xl text-white"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <button
+          class="flex border-none bg-transparent md:hidden"
+          id="nav-button"
+        >
+          <i class="bx bx-menu text-3xl text-white" id="nav-icon"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <nav
+    class="fixed z-[999] w-full -translate-y-full overflow-y-auto bg-black shadow-[inset_0_0_0_1px] shadow-white transition-transform duration-[400ms] ease-in-out md:hidden"
+    id="secondary-nav"
+  >
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="grid h-screen place-items-center">
+        <div class="flex flex-col gap-10">
+          <a class="w-min font-nunito text-4xl text-white" href="portfolio.html"
+            >Portfolio</a
+          >
+          <a class="w-min font-nunito text-4xl text-white" href="portfolio.html"
+            >About</a
+          >
+          <div>
+            <a
+              class="font-nunito text-4xl text-white"
+              href="https://www.facebook.com/lehi.tablada"
+              ><i class="bx bxl-facebook-circle"></i
+            ></a>
+            <a
+              class="font-nunito text-4xl text-white"
+              href="https://www.instagram.com/itslehifama/"
+              ><i class="bx bxl-instagram-alt"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <body class="bg-black">
+    <main>
+      <section class="bg-black shadow-[inset_0_0_0_1px] shadow-white">
+        <div class="mx-auto max-w-7xl px-4 py-8">
+          <div class="grid h-min gap-6 md:h-screen md:grid-cols-2">
+            <div class="flex flex-col gap-6 md:self-center">
+              <h1
+                class="font-playfair-display text-4xl font-black text-white md:text-5xl xl:text-7xl"
+              >
+                Hello. <br />
+                I'm Lehi Fama
+              </h1>
+              <p class="font-nunito text-white xl:text-xl">
+                This is my Website Official Portfilio
+              </p>
+              <p class="font-nunito text-white xl:text-xl">
+                Please take a look and explore my Website Portfolio.
+              </p>
+            </div>
+            <div class="flex flex-col gap-6 md:flex-row">
+              <img
+                class="object-cover md:w-[160px] xl:w-[294px]"
+                src="../images/2.png"
+                alt=""
+              />
+              <img
+                class="object-cover md:w-[160px] xl:w-[294px]"
+                src="../images/4.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
