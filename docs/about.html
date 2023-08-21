@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio | Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfilio | About</title>
+    <link rel="stylesheet" href="./styles.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
   </head>
+
   <header
     class="sticky top-0 z-[1000] h-16 bg-black shadow-[inset_0_0_0_1px] shadow-white"
   >
@@ -17,15 +18,15 @@
       <nav class="flex h-16 items-center justify-between">
         <a
           class="font-playfair-display text-2xl font-black text-white"
-          href="index.html"
+          href="./index.html"
           >LEHI
         </a>
         <div class="hidden items-center gap-10 md:flex">
           <div class="flex gap-10">
-            <a class="font-nunito text-white" href="index.html"
+            <a class="font-nunito text-white" href="./index.html"
               >Portfolio</a
             >
-            <a class="font-nunito text-white" href="about.html">About</a>
+            <a class="font-nunito text-white" href="./about.html">About</a>
           </div>
           <div class="flex h-7 gap-6">
             <a href="https://www.facebook.com/lehi.tablada"
@@ -57,10 +58,10 @@
     <div class="mx-auto max-w-7xl px-4">
       <div class="grid h-screen place-items-center">
         <div class="flex flex-col gap-10">
-          <a class="w-min font-nunito text-4xl text-white" href="index.html"
+          <a class="w-min font-nunito text-4xl text-white" href="./index.html"
             >Portfolio</a
           >
-          <a class="w-min font-nunito text-4xl text-white" href="about.html"
+          <a class="w-min font-nunito text-4xl text-white" href="./about.html"
             >About</a
           >
           <div>
@@ -80,42 +81,52 @@
     </div>
   </nav>
 
-  <body class="bg-black">
+  <body>
     <main>
       <section class="bg-black shadow-[inset_0_0_0_1px] shadow-white">
-        <div class="mx-auto max-w-7xl px-4 py-8">
-          <div class="grid h-min gap-6 md:h-screen md:grid-cols-2">
+        <div class="mx-auto max-w-7xl px-4 py-8" s>
+          <div class="grid h-min gap-6 md:h-[90vh] md:grid-cols-2">
             <div class="flex flex-col gap-6 md:self-center">
-              <h1
-                class="font-playfair-display text-4xl font-black text-white md:text-5xl xl:text-7xl"
-              >
-                Hello. <br />
-                I'm Lehi Fama
-              </h1>
-              <p class="font-nunito text-white xl:text-xl">
-                This is my Website Official Portfilio
-              </p>
-              <p class="font-nunito text-white xl:text-xl">
-                Please take a look and explore my Website Portfolio.
-              </p>
+              <div class="flex flex-col gap-2">
+                <h2 class="font-playfair-display text-3xl font-bold text-white">
+                  About me
+                </h2>
+                <p class="font-nunito text-white opacity-90">
+                  Welcome to my portfolio. This Personal Portfolio Website shows
+                  all of my capabilities, exercise and growth as an IT student
+                </p>
+              </div>
+              <div class="flex flex-col gap-2">
+                <h2 class="font-playfair-display text-3xl font-bold text-white">
+                  Education:
+                </h2>
+                <p class="font-nunito text-white">Name: Lehi Fama</p>
+                <p class="font-nunito text-white opacity-90">Age: 20</p>
+                <p class="font-nunito text-white opacity-90">
+                  College: University of Pangasinan Current Year in College: 3rd
+                  Year College
+                </p>
+              </div>
+              <div class="flex flex-col gap-2">
+                <h2 class="font-playfair-display text-3xl font-bold text-white">
+                  Hobbies:
+                </h2>
+                <p class="font-nunito text-white opacity-90">Gaming</p>
+              </div>
+              <div class="flex flex-col gap-2">
+                <h2 class="font-playfair-display text-3xl font-bold text-white">
+                  Work Experience:
+                </h2>
+                <p class="font-nunito text-white opacity-90">Service Crew</p>
+              </div>
             </div>
-            <div class="flex flex-col gap-6 md:flex-row">
-              <img
-                class="object-cover md:w-[160px] xl:w-[294px]"
-                src="../images/2.png"
-                alt=""
-              />
-              <img
-                class="object-cover md:w-[160px] xl:w-[294px]"
-                src="../images/4.png"
-                alt=""
-              />
+            <div class="md:self-center">
+              <img class="md:w-[800px]" src="../images/5.png" alt="" />
             </div>
           </div>
         </div>
       </section>
     </main>
-
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
